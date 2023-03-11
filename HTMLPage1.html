@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Static web page</title>
+
+    <style>
+        #main {
+          /*  background-color: lightblue;*/
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #titlediv {
+         /*   background-color: violet;*/
+            font-size: 20pt;
+            color: black;
+            font-weight: bold;
+        }
+
+        #bodydiv {/*
+            background-color: blue;*/
+            display: flex;
+            flex-direction: row;
+        }
+
+        #newsdiv {
+            background-color: #ededed;
+        }
+
+        #footerdiv {
+            background-color: #faf7f7;
+            color: grey;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #leftdiv {
+           /* background-color: lightgreen;*/
+            width: 400px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+
+        #rightdiv {
+            /*background-color: burlywood;*/
+            width: 800px;
+        }
+        #biodiv
+        {/*
+            background-color:aqua;*/
+        }
+        #lowdiv
+        {
+           /* background-color:blue;*/
+            display:flex;
+            flex-direction:row;
+        }
+        #interestdiv
+        {
+           /* background-color:red;*/
+        }
+        #edudiv
+        {
+           /* background-color:yellow;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="titlediv">
+            Tu-Anh Truong's Website
+        </div>
+        <div id="bodydiv">
+            <div id="leftdiv">
+              
+                <div>
+                    <img style="width:200px; border-radius:50%;" src="static/imgs/head2.png"/>
+                </div>
+                <div style="font-weight:bold;font-size:30px;">
+                    Tu-Anh Truong
+                </div>
+                <div style="color:dimgrey;">
+                    Student in Management Information Systems
+                </div>
+                <div style="color:dimgrey;">
+                    The University of Oklahoma
+                </div>
+                <div>
+                    <a href=" mailto:xinglong.ju@ou.edu" target="_blank"><img style="width:30px;" src="static/imgs/email.png" /></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img style="width:30px;" src="static/imgs/linkedin.png" /></a>
+                    <a href="https://twitter.com/" target="_blank"><img style="width:30px;" src="static/imgs/twitter.png" /></a>
+                    <a href="https://www.instagram.com" target="_blank"><img style="width:30px;" src="static/imgs/instagram.png" /></a>
+                
+                </div>
+            </div>
+            <div id="rightdiv">
+                <div id="biodiv">
+
+
+                    <span style="font-size:30px;font-weight:bold;">Biography</span>
+
+                    <p>
+                        I am A senior student in Management Information Systems at the University of Oklahoma
+                    </p>
+
+                    <p>
+                        My study focuses on data analytics and I am good at programming(Console,Desk, and Web Applications)
+                    </p>
+
+                    <p>
+                        For more information, please refer to my <a href="static/files/cv.pdf" target="_blank">CV</a>
+                    </p>
+
+                </div>
+                <div id="lowdiv">
+                    <div id="interestdiv">
+                        <span style="font-size:30px;font-weight:bold;">Interests</span>
+                        <ol>
+
+                            <li>Analyst Programmer</li>
+                            <li>Business Analyst</li>
+                            <li>Database Administration</li>
+                            <li>Web Developer</li>
+                            <li>Data Scientists</li>
+
+                        </ol>
+                    </div>
+                    <div id=" edudiv">
+                        <span style="font-size:30px; font-weight:bold;">Education</span>
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2023<br />
+                                The University of Oklahoma
+                            </li>
+
+                            <li>
+
+                                B.E. in Management Information Systems, 2024<br />
+                                The Unversity of Oklahoma
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="newsdiv">
+            <span style="font-size:30px;font-weight:bold;">Recent News</span>
+            <ul style="margin:0;">
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# EF</li>
+            </ul>
+
+
+            Designed and Published by Xinglog Ju
+
+        </div>
+        <div id="footerdiv">
+            Designed and Published by Tu-Anh Truong
+        </div>
+    </div>
+</body>
+
+</html>
