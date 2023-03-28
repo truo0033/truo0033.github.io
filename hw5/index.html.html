@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MIS3033 HW5</title>
+
+    <style>
+        #main
+        {
+            width:1000px;
+            margin-left:auto;
+            margin-right:auto;
+            background-color:azure;
+        }
+        #header
+        {
+            background-color:antiquewhite;
+            height:50px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+            justify-content:right;
+        }
+        #body
+        {
+            background-color:aliceblue;
+            display:flex;
+            flex-direction:row;
+        }
+        #footer
+        {
+            background-color:#073c76;
+            color:white;
+            height:50px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+        #headlogo
+        {
+            width:40px;
+            border-radius:50%;
+            margin-left:5px;
+            margin-right:5px;
+        }
+        #btn
+        {
+            margin-right:5px;
+
+        }
+        #leftdiv
+        {
+           /* background-color:blue;*/
+            width:300px;
+            height:300px;
+
+        }
+        #middiv
+        {
+            width:400px;
+        }
+        #rightdiv
+        {
+            background-color:cornflowerblue;
+            width:300px;
+        }
+        #bookimg
+        {
+            width:200px;
+        }
+        #bookinfo
+        {
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            Hi, TuAnh Truong, 
+            <img id="headlogo" src="img/head2.png"/>
+            <input id ="btn" type="button" value="Logout" />
+        </div>
+
+
+
+        <div id="body">
+            <div id="leftdiv">
+                <img id ="bookimg"src="img/book.jpg" /> <br/>
+                <span id="bookinfo">C# 10 and .NET 6</span>
+            </div>
+
+            <div id="middiv">
+                <span style="font-weight:bold;margin-top:5px;margin-bottom:5px;">$44.99</span> <br/>
+                <label>Qty:</label>
+                <input type="text" /> <br/>
+                <input style="margin-top:5px;" type="button" value="Add"/>
+            </div>
+
+            <div id="rightdiv">
+                <span style="font-weight:bold;">Total: $89.98</span>
+            </div>
+        </div>
+
+
+
+        <div id="footer">
+            Developed by TuAnh Truong for MIS 3033 Homework
+        </div>
+    </div>
+</body>
+</html>
